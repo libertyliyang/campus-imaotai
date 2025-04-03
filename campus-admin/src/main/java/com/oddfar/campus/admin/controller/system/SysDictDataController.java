@@ -19,7 +19,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/system/dict/data")
-@ApiResource(name = "字典数据管理", resBizType = ResBizTypeEnum.SYSTEM)
+@ApiResource(name = "字典数据管理1", resBizType = ResBizTypeEnum.SYSTEM)
 public class SysDictDataController {
     @Autowired
     private SysDictDataService dictDataService;
